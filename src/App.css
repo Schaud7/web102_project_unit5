@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sideNav {
+  background-color: #393975;
+  width: 250px;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideNav h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.sideNav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sideNav ul li {
+  margin: 20px 0;
+}
+
+.sideNav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.sideNav ul li a:hover {
+  color: #f39c12;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-image: url('space-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.top-section {
+  margin-bottom: 30px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  background: rgba(173, 161, 161, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.history-section {
+  margin-top: 30px;
+}
+
+.history-section ul {
+  background: rgba(171, 168, 168, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
